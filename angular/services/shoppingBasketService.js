@@ -1,22 +1,26 @@
 flowerShoppingApp.service('BAWShoppingBasket', [ function() {
-    var that = this;
+    //var that = this;
 
     var flowerToPurchase = null;
     var deliveries = 1;
     var totalCost = 0;
 
-    this.updateCost = function() {
+    var updateCost = function() {
         totalCost = parseInt(flowerToPurchase.pricings[0].amount) * deliveries;
     };
 
     return {
         selectFlower: function (flowerToSelect) {
             flowerToPurchase = flowerToSelect;
-            that.updateCost();
+            updateCost();
+        },
+        getSelectedFlowerID: function() {
+            console.log(flowerToPurchase.id);
+            return flowerToPurchase.id;
         },
         setNumberOfDeliveries: function(newNumDeliveries) {
             deliveries = newNumDeliveries;
-            that.updateCost();
+            updateCost();
         },
         getNumberOfDeliveries: function() {
             return deliveries;

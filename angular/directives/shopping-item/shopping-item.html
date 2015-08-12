@@ -1,12 +1,12 @@
-<div class="flower-container">
+<div class="flower-container" ng-click="basket.selectFlower(flower)">
     <h3 class="flower-title">
         {{flower.name}}
     </h3>
 
-    <div class="flower-img-container">
+    <div class="flower-img-container" ng-class="{'flower-selected': flower.id === basket.getSelectedFlowerID()}">
         <img class="flower-img" src="{{flower.default_bouquet.image_urls.website_medium}}"/>
-        <p class="flower-price">{{flower.pricings[0].amount}}</p>
 
+        <p class="flower-price">£{{flower.pricings[0].amount}}</p>
     </div>
 
 

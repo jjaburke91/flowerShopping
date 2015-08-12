@@ -10,9 +10,6 @@ flowerShoppingApp.directive('shoppingItem', function() {
 });
 
 flowerShoppingApp.controller('shoppingItemController', ['$scope', 'BAWShoppingBasket', function($scope, basket) {
-
-    $scope.selectFlower = function(flowerToSelect) {
-        basket.selectFlower(flowerToSelect);
-    }
+    $scope.basket = basket;
 
 }]);

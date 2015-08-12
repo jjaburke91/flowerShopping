@@ -22,6 +22,12 @@
         width: 33.33%;
 
         padding: 0 30px;
+        cursor: pointer;
+
+        .flower-selected {
+            border: 2px solid gold;
+            padding: 0 !important; //
+        }
 
         .flower-title {
             text-align: left;
@@ -32,10 +38,12 @@
         .flower-img-container {
             text-align: center;
             position: relative;
-            overflow: auto;
+            padding: 2px; // When border is visible on flower selection, image won't be re-sized.
 
             .flower-img {
+                display: block;
                 width: 100%;
+                padding: 0;
             }
 
             .flower-price {
@@ -45,11 +53,6 @@
 
                 text-align: center;
                 font-size: 1.2em;
-
-                &:before {
-                    content: "£";
-
-                }
             }
         }
     }
@@ -60,12 +63,21 @@
 
     #shopping-basket-deliveries-container {
         width: 100%;
+        margin: 2em 0;
         text-align:center;
     }
 
     #shopping-basket-total-cost {
         width: 100%;
         text-align:center;
+        margin: 1em 0;
+
+        p {
+            display: block;
+            width: 100%;
+            font-size: 2em;
+            margin: 0;
+        }
     }
 
 }
