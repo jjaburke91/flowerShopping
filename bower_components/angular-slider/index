@@ -1,0 +1,1089 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>PopSugar/angular-slider · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="PopSugar/angular-slider" name="twitter:title" /><meta content="angular-slider - Slider directive implementation for AngularJS, without jQuery dependencies" name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/1076661?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/1076661?v=3&amp;s=400" property="og:image" /><meta content="PopSugar/angular-slider" property="og:title" /><meta content="https://github.com/PopSugar/angular-slider" property="og:url" /><meta content="angular-slider - Slider directive implementation for AngularJS, without jQuery dependencies" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="522B326B:11DB:3584F35:55CB75ED" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="G0xK13rr+NffKGjqtAFSqMPXkZnVuLtXWV6HHgYqf7vDWU9xXHPd31ag7o/vkKcWjXfGVDZ/vix1Xes0b5jz8A==" name="csrf-token" />
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-f3d4668190d304ea0475fe204481ee1bd903d206ef660b4d49fef5a3ec787e67.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-30bb33c1407c5ea936a8c79e575a0c50af1207b8cc6653e6e615523f3e622f3b.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="729a989c1fc2a17ab176fa34f8b2931d">
+
+      
+  <meta name="description" content="angular-slider - Slider directive implementation for AngularJS, without jQuery dependencies">
+  <meta name="go-import" content="github.com/PopSugar/angular-slider git https://github.com/PopSugar/angular-slider.git">
+
+  <meta content="1076661" name="octolytics-dimension-user_id" /><meta content="PopSugar" name="octolytics-dimension-user_login" /><meta content="17883058" name="octolytics-dimension-repository_id" /><meta content="PopSugar/angular-slider" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="true" name="octolytics-dimension-repository_is_fork" /><meta content="9562434" name="octolytics-dimension-repository_parent_id" /><meta content="prajwalkman/angular-slider" name="octolytics-dimension-repository_parent_nwo" /><meta content="9562434" name="octolytics-dimension-repository_network_root_id" /><meta content="prajwalkman/angular-slider" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/PopSugar/angular-slider/commits/master.atom" rel="alternate" title="Recent Commits to angular-slider:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public fork">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2FPopSugar%2Fangular-slider" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/PopSugar/angular-slider/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/PopSugar/angular-slider/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu ">
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2FPopSugar%2Fangular-slider"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/PopSugar/angular-slider/watchers">
+    77
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FPopSugar%2Fangular-slider"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/PopSugar/angular-slider/stargazers">
+      78
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2FPopSugar%2Fangular-slider"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/PopSugar/angular-slider/network" class="social-count">
+        195
+      </a>
+    </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+            <span class="mega-octicon octicon-repo-forked"></span>
+            <span class="author"><a href="/PopSugar" class="url fn" itemprop="url" rel="author"><span itemprop="title">PopSugar</span></a></span><!--
+         --><span class="path-divider">/</span><!--
+         --><strong><a href="/PopSugar/angular-slider" data-pjax="#js-repo-pjax-container">angular-slider</a></strong>
+
+            <span class="page-context-loader">
+              <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+            </span>
+
+              <span class="fork-flag">
+                <span class="text">forked from <a href="/prajwalkman/angular-slider">prajwalkman/angular-slider</a></span>
+              </span>
+          </h1>
+        </div>
+
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation">
+          <div class="repository-sidebar clearfix">
+              
+
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/PopSugar/angular-slider/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/PopSugar/angular-slider" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /PopSugar/angular-slider">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/PopSugar/angular-slider/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /PopSugar/angular-slider/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/PopSugar/angular-slider/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /PopSugar/angular-slider/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/PopSugar/angular-slider/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /PopSugar/angular-slider/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/PopSugar/angular-slider/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /PopSugar/angular-slider/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+                <div class="only-with-full-nav">
+                    
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/PopSugar/angular-slider.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/PopSugar/angular-slider" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+  <div class="clone-options">You can clone with
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="70f4c3044f8e307f626a73f5c01752cee9be9981" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="O+fRMXEZARN4HjG4vz+atgOchbUsuMUEwAIHJxEnW1LNcWXkp+OkG5iK5Kq6P7FjzWEHimWfj0bQ5ifAw8Lbbg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="70f4c3044f8e307f626a73f5c01752cee9be9981" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fJ4z7Pl15H8AamBd2wve8RGH3nGkzcXFr0CdyAYolkWBnCB1LTW+eeFlDlmZyx2GfpgxCb61DLmMR/z8/wjMvg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+      <span class="octicon octicon-question"></span>
+    </a>
+  </div>
+
+                  <a href="/PopSugar/angular-slider/archive/master.zip"
+                     class="btn btn-sm sidebar-button"
+                     aria-label="Download the contents of PopSugar/angular-slider as a zip file"
+                     title="Download the contents of PopSugar/angular-slider as a zip file"
+                     rel="nofollow">
+                    <span class="octicon octicon-cloud-download"></span>
+                    Download ZIP
+                  </a>
+                </div>
+          </div>
+          <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+            
+<span id="js-show-full-navigation"></span>
+
+  <div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Slider directive implementation for AngularJS, without jQuery dependencies
+    </div>
+
+
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/PopSugar/angular-slider/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              57
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/PopSugar/angular-slider/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/PopSugar/angular-slider/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            22
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/PopSugar/angular-slider/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      8
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/PopSugar/angular-slider/search?l=coffeescript">
+                <span class="color-block language-color" style="background-color:#244776;"></span>
+                <span class="lang">CoffeeScript</span>
+                <span class="percent">69.3%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/PopSugar/angular-slider/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">23.7%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/PopSugar/angular-slider/search?l=ruby">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">6.7%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/PopSugar/angular-slider/search?l=bash">
+                <span class="color-block language-color" style="background-color:#89e051;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">0.3%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="CoffeeScript 69.3%" style="width:69.3%; background-color:#244776;" itemprop="keywords">CoffeeScript</span>
+    <span class="language-color" aria-label="CSS 23.7%" style="width:23.7%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    <span class="language-color" aria-label="Ruby 6.7%" style="width:6.7%; background-color:#701516;" itemprop="keywords">Ruby</span>
+    <span class="language-color" aria-label="Shell 0.3%" style="width:0.3%; background-color:#89e051;" itemprop="keywords">Shell</span>
+  </div>
+
+<include-fragment src="/PopSugar/angular-slider/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+  <div class="file-navigation in-mid-page">
+  <a href="/PopSugar/angular-slider/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files"
+        data-ga-click="Repository, find file, location:repo overview">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/PopSugar/angular-slider/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/PopSugar/angular-slider/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.14"
+                 data-name="v0.2.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.14">v0.2.14</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.13"
+                 data-name="v0.2.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.13">v0.2.13</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.12"
+                 data-name="v0.2.12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.12">v0.2.12</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.11"
+                 data-name="v0.2.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.11">v0.2.11</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.10"
+                 data-name="v0.2.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.10">v0.2.10</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.9"
+                 data-name="v0.2.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.9">v0.2.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.8"
+                 data-name="v0.2.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.8">v0.2.8</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.7"
+                 data-name="v0.2.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.7">v0.2.7</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.6"
+                 data-name="v0.2.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.6">v0.2.6</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.5"
+                 data-name="v0.2.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.5">v0.2.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.4"
+                 data-name="v0.2.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.4">v0.2.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.3"
+                 data-name="v0.2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.3">v0.2.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.2"
+                 data-name="v0.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.2">v0.2.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.1"
+                 data-name="v0.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.1">v0.2.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.2.0"
+                 data-name="v0.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.2.0">v0.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.8"
+                 data-name="v0.1.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.8">v0.1.8</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.7"
+                 data-name="v0.1.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.7">v0.1.7</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.6"
+                 data-name="v0.1.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.6">v0.1.6</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.5"
+                 data-name="v0.1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.5">v0.1.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.1"
+                 data-name="v0.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.1">v0.1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.1.0"
+                 data-name="v0.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.1.0">v0.1.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/PopSugar/angular-slider/tree/v0.0.1"
+                 data-name="v0.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.0.1">v0.0.1</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/PopSugar/angular-slider" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">angular-slider</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  <div class="branch-infobar">
+    <span class="right">
+        <a class="muted-link" href="/PopSugar/angular-slider/pull/27">
+          <span class="octicon octicon-git-pull-request"></span>
+          #27
+        </a>
+      <a class="muted-link" href="/PopSugar/angular-slider/compare">
+        <span class="octicon octicon-diff"></span>
+        Compare
+      </a>
+    </span>
+
+      This branch is 30 commits ahead, 3 commits behind prajwalkman:master.
+  </div>
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/PopSugar/angular-slider/commit/5820367308a7792d3fc670eeb6470daf33e66222" class="message" data-pjax="true" title="Merge pull request #18 from sifu/fix-mobile
+
+Make it work on mobile">Merge pull request</a> <a href="https://github.com/PopSugar/angular-slider/pull/18" class="issue-link" title="Make it work on mobile">#18</a> <a href="/PopSugar/angular-slider/commit/5820367308a7792d3fc670eeb6470daf33e66222" class="message" data-pjax="true" title="Merge pull request #18 from sifu/fix-mobile
+
+Make it work on mobile">from sifu/fix-mobile</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Make it work on mobile</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="5820367308a7792d3fc670eeb6470daf33e66222" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/PopSugar/angular-slider/commit/5820367308a7792d3fc670eeb6470daf33e66222" class="sha-block" data-pjax>latest commit <span class="sha">5820367308</span></a>
+
+      <div class="authorship">
+        <img alt="" class="avatar" height="20" src="https://1.gravatar.com/avatar/e49b2b8ecbb82be9763216277fea187e?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><span>Chris Bailey</span></span>
+        authored <time class="updated" datetime="2015-01-12T19:08:15Z" is="relative-time">Jan 12, 2015</time>
+
+          <span class="committer"><span class="octicon octicon-arrow-right"></span> <a href="/that70schris" rel="contributor">that70schris</a>
+            committed <time datetime="2015-01-12T19:10:05Z" is="relative-time">Jan 12, 2015</time>
+          </span>
+      </div>
+    </div>
+  </div>
+
+
+<div class="file-wrap">
+  <a href="/PopSugar/angular-slider/tree/5820367308a7792d3fc670eeb6470daf33e66222" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-c51a3c1859555981ee9878f13b7c00381bcc6e50" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/41777ca78eb02a9e4bcc0e547c1d3a55621d2856" class="message" data-pjax="true" title="fix single handle slider not returning ngModel">fix single handle slider not returning ngModel</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-28T22:17:30Z" is="time-ago">Mar 28, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-188df75a1254d9693dcf41fc98bd3eea01503a4c" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/17eef51464199c6c3b5c8e2afec3ea6a1c025e8b" class="message" data-pjax="true" title="fix bower install">fix bower install</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-18T23:23:29Z" is="time-ago">Mar 18, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-aad855887b91747d7e6c335ec00e511079f3ca9c" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/61d32a00c7f9eacb33a07a2d8f32a36208070b0a" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-12-25T06:27:08Z" is="time-ago">Dec 24, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-20067338ad570a6197b60dc5267887fb30fc13b7" title="bower.json">bower.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/a648c0b2caca97667c95da4afaf6e16b63eaf8d6" class="message" data-pjax="true" title="remove wierd translate function">remove wierd translate function</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-26T20:50:52Z" is="time-ago">Mar 26, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/build.sh" class="js-directory-link" id="0b83f9dedf40d7356e5ca147a077acb4-2914cab62659b228a476c7efdb56eefc353b3da0" title="build.sh">build.sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/171d7f9f22623a1000fb61e4f0ee9784537e056c" class="message" data-pjax="true" title="Adds support for updating models on dragstop instead of move">Adds support for updating models on dragstop instead of move</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-07-28T20:26:06Z" is="time-ago">Jul 28, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/config.rb" class="js-directory-link" id="2620489c404159b5404f13f82e470fbd-7e37026811f4f7b848ac55a8b0760ea175bc5414" title="config.rb">config.rb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/a648c0b2caca97667c95da4afaf6e16b63eaf8d6" class="message" data-pjax="true" title="remove wierd translate function">remove wierd translate function</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-26T20:50:52Z" is="time-ago">Mar 26, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-6dce0136d070362d3b10545cd1fdf67655ba29e6" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/4c3ea22822143024d040c25b54f7551d6f257839" class="message" data-pjax="true" title="fix value watchers">fix value watchers</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-08-18T22:08:22Z" is="time-ago">Aug 18, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/slider.coffee" class="js-directory-link" id="470cf6885b1ae81080844ed76ff67f20-40190241629e8bbfd20ee9c6672cf0108aa0e8cb" title="slider.coffee">slider.coffee</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/5820367308a7792d3fc670eeb6470daf33e66222" class="message" data-pjax="true" title="Merge pull request #18 from sifu/fix-mobile
+
+Make it work on mobile">Merge pull request</a> <a href="https://github.com/PopSugar/angular-slider/pull/18" class="issue-link" title="Make it work on mobile">#18</a> <a href="/PopSugar/angular-slider/commit/5820367308a7792d3fc670eeb6470daf33e66222" class="message" data-pjax="true" title="Merge pull request #18 from sifu/fix-mobile
+
+Make it work on mobile">from sifu/fix-mobile</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-12T19:10:05Z" is="time-ago">Jan 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/slider.css" class="js-directory-link" id="fce8bcbc01c4c0165174985815c7cd75-efb28ad2e0d0e973a8e0c34ad14ab73704029b1c" title="slider.css">slider.css</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/ab563779985492871b9debc9d77b3437498b8355" class="message" data-pjax="true" title="now accepts and array of values">now accepts and array of values</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-27T22:49:30Z" is="time-ago">Mar 27, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/slider.js" class="js-directory-link" id="3709fd41efe41532afd12832ab09d017-ee0d6d61c2868be6852f19f5a211dedf971161d4" title="slider.js">slider.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/51cd457f33cb332f98f3216ea30ff4b1b5aff8b5" class="message" data-pjax="true" title="get the correct clientX on mobiles">get the correct clientX on mobiles</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-12T13:51:24Z" is="time-ago">Jan 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/PopSugar/angular-slider/blob/master/slider.scss" class="js-directory-link" id="3f726e1b3679b809ddcdd84c2618c705-0608b0d3079f326a19fff2c4f3b5caca78d4bd8c" title="slider.scss">slider.scss</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/PopSugar/angular-slider/commit/ab563779985492871b9debc9d77b3437498b8355" class="message" data-pjax="true" title="now accepts and array of values">now accepts and array of values</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-27T22:49:30Z" is="time-ago">Mar 27, 2014</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-angular-slider" class="anchor" href="#angular-slider" aria-hidden="true"><span class="octicon octicon-link"></span></a>angular-slider</h1>
+
+<p>Slider directive implementation for AngularJS, without jQuery dependencies. Requires AngularJS v1.1.4 or higher (optional isolate scope bindings support).</p>
+
+<h3><a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example:</h3>
+
+<pre><code>&lt;ul&gt;
+    &lt;li ng-repeat="item in items"&gt;
+        &lt;p&gt;Name: {{item.name}}&lt;/p&gt;
+        &lt;p&gt;Cost: {{item.cost}}&lt;/p&gt;
+        &lt;slider floor="100" ceiling="1000" step="50" precision="2" ng-model="item.cost"&gt;&lt;/slider&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3><a id="user-content-range" class="anchor" href="#range" aria-hidden="true"><span class="octicon octicon-link"></span></a>Range:</h3>
+
+<pre><code>&lt;ul&gt;
+    &lt;li ng-repeat="position in positions"&gt;
+        &lt;p&gt;Name: {{position.name}}&lt;/p&gt;
+        &lt;p&gt;Minimum Age: {{position.minAge}}&lt;/p&gt;
+        &lt;p&gt;Maximum Age: {{position.maxAge}}&lt;/p&gt;
+        &lt;slider floor="10" ceiling="60" ng-model-low="position.minAge" ng-model-high="position.maxAge"&gt;&lt;/slider&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage:</h3>
+
+<p>Make sure to load AngularJS first, and then <code>slider.js</code>. Also include the related <code>slider.css</code>.</p>
+
+<p>The module is named <code>ui.slider</code>. To enable it, you must simply list it as a dependency in your app. Example:</p>
+
+<pre><code>var app = angular.module('app', ['ui.slider', 'ngResource', ...]);
+</code></pre>
+
+<p>You can then use it in your templates like so:</p>
+
+<pre><code>&lt;html ng-app='app'&gt;
+    ...
+    &lt;body&gt;
+        ...
+        &lt;slider ...&gt;&lt;/slider&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3><a id="user-content-known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Known issues:</h3>
+
+<ol>
+<li>When applying filters or orders within an ng-repeat directive, the element can abruptly change its position when the value attached to the slider causes a filter to activate or the order to change.
+Example: In the above snippet, it would be a very bad idea to order the list by item.cost.</li>
+</ol>
+
+<h3><a id="user-content-license-mit" class="anchor" href="#license-mit" aria-hidden="true"><span class="octicon octicon-link"></span></a>License: MIT</h3>
+</article>
+  </div>
+
+
+          </div>
+        </div>
+        <div class="modal-backdrop"></div>
+      </div>
+  </div>
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.05512s from github-fe130-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder="" aria-label=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-e297fe1013cb36dad190e4904e3366ea72d7689b8d8d452d5542e64f34cbda01.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-abe96c86767e81ed38aac7dbbfc92a2ad063ae49689324f429cddb19c7ebddd3.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+

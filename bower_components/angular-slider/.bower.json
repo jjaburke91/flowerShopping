@@ -1,0 +1,11 @@
+{
+  "name": "angular-slider",
+  "_cacheHeaders": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "main": "index",
+  "_source": "https://github.com/PopSugar/angular-slider",
+  "_target": "*",
+  "_originalSource": "https://github.com/PopSugar/angular-slider",
+  "_direct": true
+}

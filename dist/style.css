@@ -1,0 +1,92 @@
+/** Mixins **/
+/** Styling **/
+#shopping-container {
+  max-width: 80em;
+  margin: auto;
+}
+#shopping-container #page-title {
+  text-align: center;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#flower-list-container {
+  box-sizing: border-box;
+}
+#flower-list-container .flower-container {
+  display: inline-block;
+  width: 33.33%;
+  padding: 20px 30px 0 30px;
+  cursor: pointer;
+}
+#flower-list-container .flower-container .flower-selected {
+  border: 2px solid gold;
+  padding: 0 !important;
+}
+#flower-list-container .flower-container .flower-selected .flower-price {
+  bottom: -12px !important;
+}
+#flower-list-container .flower-container .flower-title {
+  text-align: left;
+  margin: 0;
+  padding: 4px 0;
+}
+#flower-list-container .flower-container .flower-img-container {
+  text-align: center;
+  position: relative;
+  padding: 2px;
+}
+#flower-list-container .flower-container .flower-img-container .flower-img {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+#flower-list-container .flower-container .flower-img-container .flower-price {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.2em;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+#flower-list-container .flower-container .flower-img-container:hover .flower-price {
+  opacity: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+#shopping-basket-container #shopping-basket-deliveries-container {
+  width: 100%;
+  margin: 2em 0;
+  text-align: center;
+}
+#shopping-basket-container #shopping-basket-deliveries-container #shopping-basket-slider {
+  max-width: 30em;
+}
+#shopping-basket-container #shopping-basket-total-cost {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+#shopping-basket-container #shopping-basket-total-cost p {
+  display: block;
+  width: 100%;
+  font-size: 2em;
+  margin: 0;
+}
+/* Very Minor Slider Styling */
+.bar {
+  background: gold !important;
+}
