@@ -9,8 +9,4 @@ flowerShoppingApp.controller('flower-shopping-controller', ['$scope', 'feed', 'B
     });
 
     basket.selectFlower($scope.flowerCollection[0]); // Selection defaults to first item
-
-    // TO REMOVE :
-    console.log($scope.flowerCollection);
-
 }]);
