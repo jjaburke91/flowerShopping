@@ -1,5 +1,5 @@
 
-flowerShoppingApp = angular.module('flower-shopping-app', ['ui.router']);
+flowerShoppingApp = angular.module('flower-shopping-app', ['ui.router', 'ui.slider']);
 
 flowerShoppingApp.config( ['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.when("/", "/shopping");

@@ -1,6 +1,4 @@
 flowerShoppingApp.service('BAWShoppingBasket', [ function() {
-    //var that = this;
-
     var flowerToPurchase = null;
     var deliveries = 1;
     var totalCost = 0;
@@ -15,7 +13,6 @@ flowerShoppingApp.service('BAWShoppingBasket', [ function() {
             updateCost();
         },
         getSelectedFlowerID: function() {
-            console.log(flowerToPurchase.id);
             return flowerToPurchase.id;
         },
         setNumberOfDeliveries: function(newNumDeliveries) {
