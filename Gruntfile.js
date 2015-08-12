@@ -63,6 +63,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('dev', [ 'bower', 'less', 'watch:dev' ]);
     grunt.registerTask('package', [ 'bower', 'concat:dist' ]);
-    grunt.registerTask('build', ['bower', 'less', 'concat:dist', 'wiredep'])
+    grunt.registerTask('build', ['bower:install', 'less', 'concat:dist', 'wiredep'])
 
 };

@@ -1,6 +1,6 @@
 # Flower Shopping
 
-Here's my solution to the task you gave me. Hopefully this details my knowledge of Angular, HTML, CSS and generally how to build applications.
+Here's my solution to the task you gave me. Hopefully this details my knowledge of Angular, HTML, CSS and generally how to build applications. Note there's a screen-shot of the application in the repo.
 
 ## Build
 
@@ -9,16 +9,15 @@ The project was built in an environment using Bower, NPM, Grunt and Node JS.
 With these installed, run:
 
 ```
-grunt build
-```
-Then: 
+npm install
 
-```
+grunt build
+
 node node-app.js
 ```
-This should build and run all the necessary dependencies. Happy to give an explanation as to what's going on in the grunt tasks if you wish. My favourite tasks in there are *wiredep* and *concat*, both save me a lot of time messing about with imports and / or concatenating files. Re-using those tasks very frequently these days.
+This should build and run all the necessary dependencies. Happy to give an explanation as to what's going on in the grunt tasks if you wish. I frequently re-use tasks *wiredep* and *concat*, both save me a lot of time messing about with imports and / or concatenating files.
 
-Branch "*prod build*" contains all the files required to execute the application if don't wish to go through the build processes.
+Branch "*prod_build*" contains all the files required to execute the application if you don't wish to go through the build processes.
 
 ## Comments on implementation
 
@@ -29,7 +28,7 @@ Had minor issues with CORS trying to access the live feed. I'm aware of *$http.j
 Not the prettiest but simple to use. Hopefully displays to you my knowledge of the limitations of *ng-model* and when to use *$watch*. 
 
 ### Project structure
-On a larger project I wouldn't make it's structure based on controller, service and directive folders, at least not at the highest level. On a larger project, I'd most likely (though always valid arguments for variations) divide such content into folders that are relevant to specifics components. It's current project strucure seemed appropriate giving the tiny size of the application and the fact it literally has one page.
+On a larger project I wouldn't make it's structure based on controller, service and directive folders, at least not at the highest level. On a larger project, I'd most likely (though always valid arguments for variations) divide such content into folders that are relevant to specifics components. The current project structure seemed appropriate giving the small size of the application and the fact it literally has one page.
 
 ### Extras
-Was tempted on numerous occasions to expand on the styling that's going on however needed to draw a line due to my schedule. [Displaying text over images is something I'd like to have more fun with](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96). Also considered expanding the app to be more responsive, including some media queries to change the grid structure however such code is trivial with media queries.
+Was tempted on numerous occasions to expand on the styling that's going on however needed to draw a line due to my schedule. [Displaying text over images is something I'd particularly like to have more fun with](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96).
