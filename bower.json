@@ -1,0 +1,27 @@
+{
+  "name": "flowerShopping",
+  "version": "0.0.0",
+  "authors": [
+    "jjaburke91 <jjaburke@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "angular-route": "~1.4.3"
+  },
+  "devDependencies": {
+    "angular": "~1.4.3",
+    "ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "angular-route": "~1.4.3"
+  }
+}
