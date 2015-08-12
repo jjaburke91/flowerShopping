@@ -1,36 +1,28 @@
 flowerShoppingApp.service('BAWShoppingBasket', [ function() {
-    var basket = [];
-    var basketHasBeenChanged = true;
-    var basketCost = 0;
-
     var that = this;
 
+    var flowerToPurchase = null;
+    var deliveries = 1;
+    var totalCost = 0;
+
+    this.updateCost = function() {
+        totalCost = parseInt(flowerToPurchase.pricings[0].amount) * deliveries;
+    };
+
     return {
-        getBasketContent: function () {
-            basketHasBeenChanged = false;
-            return basket;
+        selectFlower: function (flowerToSelect) {
+            flowerToPurchase = flowerToSelect;
+            that.updateCost();
         },
-        getBasketCost: function () {
-            if (basketHasBeenChanged) {
-                basketCost = 0;
-                for (var i = 0; i < basket.length; i++) {
-                    basketCost += parseInt(basket[i].pricings[0].amount);
-                }
-            }
-            return basketCost;
+        setNumberOfDeliveries: function(newNumDeliveries) {
+            deliveries = newNumDeliveries;
+            that.updateCost();
         },
-        addToBasket: function (newItem) {
-            basketHasBeenChanged = true;
-            basket.push(newItem);
+        getNumberOfDeliveries: function() {
+            return deliveries;
         },
-        removeFromBasket: function(itemToRemove) {
-            basketHasBeenChanged = true;
-            // Consider more efficient way of removing items. Map basket items on entry?
-            for (var i=0; i<basket.length; i++) {
-                if (basket[i].id == itemToRemove.id) {
-                    basket.splice(i,1);
-                }
-            }
+        getTotalCost: function() {
+            return totalCost;
         }
     }
 }]);

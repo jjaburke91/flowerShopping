@@ -11,8 +11,8 @@ flowerShoppingApp.directive('shoppingItem', function() {
 
 flowerShoppingApp.controller('shoppingItemController', ['$scope', 'BAWShoppingBasket', function($scope, basket) {
 
-    $scope.toggleBasket = function(flowerToAdd) {
-        basket.addToBasket(flowerToAdd);
+    $scope.selectFlower = function(flowerToSelect) {
+        basket.selectFlower(flowerToSelect);
     }
 
 }]);
