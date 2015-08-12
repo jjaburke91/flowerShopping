@@ -1,5 +1,5 @@
-flowerShoppingApp.controller('flower-shopping-controller', ['$scope', 'feed', function($scope, feed) {
-    $scope.feed = feed;
-    console.log(feed);
+flowerShoppingApp.controller('flower-shopping-controller', ['$scope', 'feed', 'BAWShoppingBasket', function($scope, feed, basket) {
+    $scope.flowerCollection = feed[0].skus;
+    $scope.basket = basket;
 
 }]);

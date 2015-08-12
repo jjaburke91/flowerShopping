@@ -1,13 +1,12 @@
-<div id="item-container">
+<div id="flower-list-container">
 
-    <shopping-item ng-repeat="flower in feed" flower="flower"></shopping-item>
+    <shopping-item ng-repeat="flower in flowerCollection" flower="flower"></shopping-item>
 
 </div>
 
 <div id="shopping-basket-container">
     <div>
-        total:
-
+        total: {{basket.getBasketCost()}}
     </div>
 
     <p id="total-cost">

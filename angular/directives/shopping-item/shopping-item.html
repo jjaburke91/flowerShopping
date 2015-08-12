@@ -1,5 +1,7 @@
 <div class="flower-container">
     {{flower.name}}
-    <img class="flower-img" />
-    <p class="flower-price"></p>
+    <img class="flower-img" href="{{flower.default_bouquet.website_medium}}"/>
+    <p class="flower-price">{{flower.pricings[0].amount}}</p>
+
+    <button ng-click="toggleBasket(flower)">Add To Basket</button>
 </div>
