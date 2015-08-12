@@ -5,8 +5,7 @@ flowerShoppingApp.service('bloomAndWildAPI', ['$http', function($http) {
                 function success(response) {
                     return response.data.collections;
                 },
-                function error(response) {
-                    console.error(response);
+                function error() {
                     console.error("bloomAndWildAPI: Error retrieving Bloom & Wild API content.");
                 }
             );

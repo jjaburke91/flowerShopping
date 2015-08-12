@@ -1,5 +1,5 @@
 
-flowerShoppingApp = angular.module('flower-shopping-app', ['ui.router', 'ui.slider']);
+flowerShoppingApp = angular.module('flowerShoppingApp', ['ui.router', 'ui.slider']);
 
 flowerShoppingApp.config( ['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.when("/", "/shopping");
@@ -9,7 +9,7 @@ flowerShoppingApp.config( ['$stateProvider', '$urlRouterProvider', function($sta
         .state('shopping', {
             url: "/shopping",
             templateUrl: '/angular/views/flower-shopping.html',
-            controller: "flower-shopping-controller",
+            controller: "flowerShoppingController",
             resolve: {
                 feed: function(bloomAndWildAPI) {
                     return bloomAndWildAPI.getFeed();

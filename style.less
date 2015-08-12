@@ -18,7 +18,7 @@
 
     .flower-container {
         display: inline-block;
-        width: 33.33%;
+        max-width: 33.33%;
 
         padding: 20px 30px 0 30px;
         cursor: pointer;
@@ -28,7 +28,7 @@
             padding: 0 !important;
 
             .flower-price {
-                // prevent prices from hopping around on selection
+                // Prevents prices from hopping around on selection
                 bottom: -12px !important;
             }
         }
@@ -42,7 +42,7 @@
         .flower-img-container {
             text-align: center;
             position: relative;
-            padding: 2px; // When border is visible on flower selection, image won't be re-sized.
+            padding: 2px; // Gives space for border when flower is selected.
 
             .flower-img {
                 display: block;
@@ -82,8 +82,8 @@
         margin: 2em 0;
         text-align:center;
 
-        .shopping-basket-slider {
-            width: 30em;
+        #shopping-basket-slider {
+            max-width: 30em;
         }
     }
 
