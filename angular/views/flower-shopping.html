@@ -1,17 +1,17 @@
-<h1>Flower Shopping ({{flowerCollectionType}})</h1>
+<h1 id="page-title">{{flowerCollectionType}}</h1>
 
 <div id="flower-list-container">
 
-    <shopping-item ng-repeat="flower in flowerCollection" flower="flower"></shopping-item>
+    <shopping-item ng-repeat="flower in flowerCollection | limitTo: 6" flower="flower"></shopping-item>
 
 </div>
 
 <div id="shopping-basket-container">
-    <div>
+    <div id="shopping-basket-deliveries-container">
         total deliveries: {{basket.getNumberOfDeliveries()}}
     </div>
 
-    <p id="total-cost">
+    <p id="shopping-basket-total-cost">
         total cost: {{basket.getTotalCost()}}
     </p>
 
