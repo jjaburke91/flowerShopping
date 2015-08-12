@@ -18,15 +18,20 @@
 
     .flower-container {
         display: inline-block;
-        box-sizing: border-box;
+//        box-sizing: border-box;
         width: 33.33%;
 
-        padding: 0 30px;
+        padding: 20px 30px 0 30px;
         cursor: pointer;
 
         .flower-selected {
             border: 2px solid gold;
-            padding: 0 !important; //
+            padding: 0 !important;
+
+            .flower-price {
+                // prevent prices from hopping around on selection
+                bottom: -12px !important;
+            }
         }
 
         .flower-title {
@@ -49,18 +54,21 @@
             .flower-price {
                 position: absolute;
                 bottom: -10px;
-                width: 100%;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
 
                 text-align: center;
                 font-size: 1.2em;
                 opacity: 0;
-                transition: .5s;
+                transition: opacity .5s;
             }
 
             &:hover {
                 .flower-price {
                     opacity: 1;
-                    transition: 1s;
+                    transition: opacity 1s;
                 }
             }
         }
