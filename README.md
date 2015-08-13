@@ -4,7 +4,7 @@ Here's my solution to the task you gave me. Hopefully this details my knowledge 
 
 ## Build
 
-The project was built in an environment using Bower, NPM, Grunt and Node JS.
+The project was built in an environment using Bower, NPM, Grunt, LESS and Node JS.
 
 With these installed, run:
 
